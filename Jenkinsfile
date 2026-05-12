@@ -22,7 +22,7 @@ pipeline {
         // Build Docker container image
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t smartshift-app .'
+                sh '/usr/local/bin/docker build -t smartshift-app .'
             }
         }
     }
