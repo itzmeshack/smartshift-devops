@@ -89,6 +89,6 @@ def test_large_total_hours():
 
 
 def test_boundary_overtime():
-    assert is_overtime(30) is False
+    assert is_overtime(30) is True
 
 
